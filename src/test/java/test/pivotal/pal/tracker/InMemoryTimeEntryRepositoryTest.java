@@ -42,7 +42,7 @@ public class InMemoryTimeEntryRepositoryTest {
     }
 
     @Test
-    public void find_MissingEntry() {
+    public void find_MissingEntry() throws Exception {
         InMemoryTimeEntryRepository repo = new InMemoryTimeEntryRepository();
 
         long timeEntryId = 1L;
